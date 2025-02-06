@@ -1,0 +1,127 @@
+lang: en
+menu:
+- text: Home
+  link: "#page-start"
+- text: Experience
+  link: "#texperience"
+- text: Services
+  link: "#tservices"
+- text: Frequently Asked Questions
+  link: "#tfaq"
+- text: Contact
+  link: "#footer"
+meta:
+  description: Mariana Ricci - Licensed Psychologist
+  ogTitle: Mariana Ricci
+  ogDesc: Licensed Psychotherapist in Psychology
+  ogUrl: http://www.marianaricci.com
+htmltitle: Mariana Ricci - Licensed Psychologist
+fullName: Mariana Ricci
+profTitle1: Psychotherapist
+profTitle2: Licensed&nbsp;Psychologist
+contact:
+  title: Contact
+  text: Licensed Psychologist.<br>University of Buenos Aires, Argentina.<br>7 years of experience with adults, adolescents, and children.
+  phone: ""
+  phonensp: ""
+  email:
+  - contact
+  - marianaricci
+  - com
+  address:
+    simple: " "
+    street: " "
+    locality: " "
+    city: Sydney
+    region: NSW
+    postal: " "
+    googlemap:
+      directions: https://www.google.com.au/maps/dir/2-4+Lachlan+Ave,+Macquarie+Park+NSW+2113//@-33.780314,151.1147473,17z/
+      place: https://www.google.com.au/maps/place/2-4+Lachlan+Ave,+Macquarie+Park+NSW+2113/@-33.780314,151.1147473,17z/
+      mapimg: http://maps.googleapis.com/maps/api/staticmap?center=2-4+Lachlan+Ave,+Macquarie+Park+NSW+2113&zoom=12&scale=1&size=420x230&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7C2-4+Lachlan+Ave,+Macquarie+Park+NSW+2113
+      mapimgx2: http://maps.googleapis.com/maps/api/staticmap?center=2-4+Lachlan+Ave,+Macquarie+Park+NSW+2113&zoom=12&scale=2&size=420x230&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7C2-4+Lachlan+Ave,+Macquarie+Park+NSW+2113
+skype: skype:live:marianaf.ricci
+linkedin: https://au.linkedin.com/in/marianricci
+copyright: Copyright © 2021 Mariana Ricci. All Rights Reserved.
+content:
+  home:
+  - As a member of the Spanish-speaking community living in Australia and also as a mental health professional, <em>I understand the challenges of undertaking therapy in a language different from one's native tongue</em>. For this reason, I offer my psychotherapy services in <strong>Spanish</strong> with the goal of providing maximum comfort and ensuring excellent service in times of difficulty or crisis, or even if you simply wish to develop your resources and values in the pursuit of a more fulfilling life.
+  values:
+    title: Professional Ethics
+    text: Your well-being is my number one priority, and together we will work to achieve your goals. My therapeutic style is compassionate, relaxed, respectful, and non-judgmental, with strict confidentiality.<br>My psychotherapeutic approach involves working together to provide a genuine, empathetic, and mutual understanding of personal difficulties, focusing on personal growth, enriching, and enhancing the meaning of relationships with oneself and others.
+  experience:
+    title: Experience
+    text: Working as a psychologist for seven years in different roles has given me the opportunity to gain experience with patients of <strong>all ages</strong> facing a wide range of common difficulties, such as anxiety disorders, stress, and depression.<br>I have experience in both the <strong>public and private sectors</strong>, in hospitals, schools, rehabilitation institutes, and private practice.
+    col1:
+    - Children
+    - Adolescents
+    - Adults
+    col2:
+    - Depression
+    - Anxiety
+    - Stress
+    - Relationships
+    workhistory:
+      title: Professional Background
+      items:
+      - Five years of experience in public psychopathology services.
+      - Four years of experience in clinical psychology support services.
+      - Two years of institutional experience in day centers for adults with disabilities.
+      - Two years of experience in school integration for children with special educational needs.
+    studies:
+      title: Studies and Certifications
+      items:
+      - Licensed Psychologist (University of Buenos Aires, Argentina. 2006)
+      - Advanced training in suicide prevention
+      - Certification in ACT (Acceptance and Commitment Therapy)
+      - Postgraduate degree in Psychoanalysis
+      - Associate member of APS (Australian Psychological Society)
+      - Registered with AHPRA (Australian Health Practitioner Regulation Agency)
+  agegroups:
+  - title: Adolescents
+    text: Adolescence is often a difficult stage, both for the adolescent and for those around them, due to the changes they must face. The goal of therapy is to help the adolescent restore their well-being in a short time. Brief therapy addresses imbalances dynamically, flexibly, and effectively.
+    icon: ico
+    picture: girl.jpg
+  - title: Adults
+    text: The goal of treatment is to increase the understanding of the sources of our internal conflicts and emotional problems. This approach allows the patient to set the pace of the sessions while the therapist provides opportunities for greater understanding and better decision-making.
+    icon: ico
+    picture: family.jpg
+  - title: Children
+    text: Play is the child's language, which, when used therapeutically, allows them to master situations that cause suffering. It is also a means of communication and a way to express desires, fears, and concerns. Children require the support and commitment of their parents for therapy to achieve the best results.
+    icon: ico
+    picture: boy.jpg
+  services:
+    title: Services
+    content:
+    - Depression
+    - Anxiety
+    - Panic attacks
+    - Obsessive-compulsive disorder
+    - Distress
+    - Stress
+    - Post-traumatic stress disorder
+    - Sexual abuse
+    - Domestic violence
+    - Relationship issues
+    - Trauma
+    - Grief
+    - Divorce and separation
+    - Child behavioral difficulties
+    - Attention deficit and hyperactivity disorder
+    - Phobias
+  whatis:
+    title: What do psychological therapies consist of?
+    text:
+    - The therapies I offer focus on dealing with distressing feelings and thoughts and understanding how a person feels, thinks, and acts. Sometimes these problems stem from past traumas or from a person’s relationship with themselves, which may be negatively affecting current relationships, self-image, and self-worth. Through this process, we will explore in-depth beliefs, significant life events, themes, and recurring patterns that have emerged throughout your personal history.
+    - Psychotherapy will help you gain a deeper understanding and a clearer internal perspective of your personal problems, so you can identify more resilient ways of coping with difficulties or even change certain aspects of yourself or your life.
+  faq:
+    title: Frequently Asked Questions
+    content:
+    - question: How can I access Medicare benefits?
+      answer: To access Medicare Better Access Mental Health reimbursements, you need to request a mental health plan from your general practitioner, in the name of the mental health provider you choose. This allows the doctor to approve a set number of sessions (initially 6, with the possibility of extending up to 10 per year). The reimbursement will only cover a portion of the total session cost.
+    - question: How long do sessions last?
+      answer: Each session lasts approximately 50 minutes.
+    - question: How often should I go to therapy?
+      answer: Usually once a week; however, this can be discussed based on individual needs.
+    - question: How many sessions will I need?
+      answer: The duration of therapy varies for each person and depends on the goals set. Short therapies (6 - 10 sessions) are mainly used for specific issues or learning strategies. Longer periods are needed for deeper psychological issues, long-term difficulties, and ingrained behavioral patterns. The duration of your therapy will be evaluated and discussed in the first session.
