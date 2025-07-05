@@ -1,12 +1,58 @@
 @charset "UTF-8";
+:root {
+  --letra: #6f212c;
+  --lb: #127696;
+  --white: #ffffff;
+  --color-fae4ff: #fae4ff;
+ }
 html {
     height: 100%;
 }
+.navbar-default .navbar-nav > li > a {
+        font-size: 17px !important;;
+        font-weight: bolder !important;;
+        padding: 30px 15px 25px 15px !important;
+}
+
+
+.text-default {
+    color: var(--lb);
+}
+/* .dark.header * {
+    color: var(--letra) !important;
+} */
+.dark.header .navbar-default .navbar-nav > li > a {
+    font-size: 17px;
+    text-shadow: 1px 1px 3px #000 !important;
+}
+
+.logo-font {
+    line-height: normal;
+    text-transform: none;
+    font-weight: 300;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+footer .logo-font {
+    line-height: normal;
+    text-transform: none;
+    font-weight: 300;
+    font-size: 30px !important;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.prof-title {
+    font-size: 14px;
+    padding: 0;
+    margin: -8px 0px 0px 5px;
+}
+
+
+
 body {
     font-size: 17px;
     line-height: 1.46666667;
-    color: #444;
-    background-color: #fff;
     font-family: Raleway;
     font-weight: 300;
 }
@@ -20,16 +66,15 @@ h3,
 h4,
 h5,
 h6 {
-    color: #333;
     line-height: 1.2;
 }
+
 h1 a,
 h2 a,
 h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: #333;
 }
 .dark h1,
 .dark h2,
@@ -37,7 +82,6 @@ h6 a {
 .dark h4,
 .dark h5,
 .dark h6 {
-    color: #fff;
 }
 .dark h1 a,
 .dark h2 a,
@@ -45,7 +89,6 @@ h6 a {
 .dark h4 a,
 .dark h5 a,
 .dark h6 a {
-    color: #fff;
 }
 .dark .footer h1,
 .dark .footer h2,
@@ -53,7 +96,6 @@ h6 a {
 .dark .footer h4,
 .dark .footer h5,
 .dark .footer h6 {
-    color: #999;
 }
 .dark .footer h1 a,
 .dark .footer h2 a,
@@ -61,16 +103,11 @@ h6 a {
 .dark .footer h4 a,
 .dark .footer h5 a,
 .dark .footer h6 a {
-    color: #999;
 }
 h1 {
     font-size: 28px;
 }
-h1.logo-font {
-    text-transform: none;
-    font-weight: 300;
-    font-size: 50px;
-}
+
 h2 {
     font-size: 22px;
 }
@@ -121,41 +158,23 @@ p.large {
     line-height: 1.4;
     margin-bottom: 30px;
 }
-a {
-    color: #127696;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-a:hover {
-    color: #13a5d3;
-}
-a:active,
-a:focus {
-    outline: 0;
-    color: #13a5d3;
-}
+
 .link-dark {
-    color: #333;
     text-decoration: none !important;
 }
 .link-dark:hover {
-    color: #333;
     text-decoration: underline !important;
 }
 .dark .footer .link-dark {
-    color: #777;
     text-decoration: none !important;
 }
 .dark .footer .link-dark:hover {
-    color: #777;
     text-decoration: underline !important;
 }
 .link-light {
-    color: #fff;
     text-decoration: none !important;
 }
 .link-light:hover {
-    color: #fff;
     text-decoration: underline !important;
 }
 .no-trans * {
@@ -185,7 +204,7 @@ blockquote:after {
     position: absolute;
     bottom: 0;
     right: 0;
-    color: #127696;
+    color: var(--lb);
     padding-left: 10px;
 }
 blockquote:before {
@@ -198,7 +217,7 @@ blockquote:before {
     position: absolute;
     top: 12px;
     left: 0;
-    color: #127696;
+    color: var(--lb);
 }
 blockquote.inline {
     padding: 0;
@@ -218,30 +237,22 @@ blockquote.inline:after {
 }
 .mark,
 mark {
-    background-color: #127696;
-    color: #fff;
 }
 pre {
     padding: 20px;
     border-radius: 0;
 }
 .text-muted {
-    color: #999;
 }
-.text-default {
-    color: #127696;
-}
+
 .text-white {
-    color: #fff;
 }
 .well {
     border-radius: 0;
-    background-color: #f3f3f3;
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 .dark hr {
-    border-color: #333;
 }
 ul {
     list-style: square;
@@ -277,20 +288,13 @@ ul {
 .table > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 1px solid #eaeaea;
-    background-color: #eaeaea;
-    color: #333;
     font-weight: 400;
 }
 .table.table-colored {
-    border-bottom-color: #127696;
 }
 .table-colored > thead > tr > th {
-    border-color: #127696;
-    background-color: #127696;
-    color: #fff;
 }
 tbody {
-    background-color: #fff;
 }
 .table > tbody > tr > td,
 .table > tbody > tr > th,
@@ -306,7 +310,6 @@ tbody {
 }
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
-    background-color: #f5f5f5;
 }
 .table-striped.table > tbody > tr > td {
     border-color: #e8e8e8;
@@ -349,27 +352,17 @@ tbody {
     }
 }
 .page-wrapper {
-    background-color: #fff;
 }
 .header-top:not(.banner) {
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #d0d0d0;
     padding: 2px 0;
 }
 .header-top.dark {
-    background-color: #2e3537;
-    border-bottom: 1px solid #252a2c;
 }
 .header-top.colored {
-    background-color: #127696;
-    border-bottom: 1px solid #127696;
 }
 .header {
-    background-color: #fcfcfc;
 }
 .header.dark {
-    background-color: #394245;
-    border-top-color: #394245;
     border-bottom: none;
 }
 .header-top.dark + .header:not(.dark) {
@@ -440,15 +433,12 @@ tbody {
     padding: 20px 0;
 }
 .footer {
-    background-color: #fafafa;
 }
 .footer-content {
     padding: 20px 0;
 }
 .subfooter {
-    background-color: #f5f5f5;
     padding: 25px 0;
-    border-top: 1px solid #eaeaea;
 }
 @media (min-width: 768px) {
     .with-dropdown-buttons .navbar-default .navbar-collapse {
@@ -660,6 +650,7 @@ tbody {
 .dark-bg + .dark-bg + .dark-bg {
     background-color: #373737;
 }
+
 .dark-bg h1,
 .dark-bg h2,
 .dark-bg h3,
@@ -1376,7 +1367,6 @@ h5 + .separator {
 .subfooter {
     font-size: 14px;
     line-height: 1.3;
-    color: #999;
 }
 .subfooter p {
     margin-bottom: 0;
@@ -4560,7 +4550,8 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     .navbar-default .navbar-nav > li > a {
-        font-size: 15px;
+        font-size: 17px;
+        font-weight: bolder;
         padding: 28px 10px 27px 10px;
     }
 }
@@ -9136,13 +9127,13 @@ h4 {
     color: #fff;
 }
 .logo-font {
-    font-size: 26px;
+    font-size: 45px;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
-.prof-title {
-    font-size: 14px;
-    padding: 0;
-    margin: -5px 0 0 0;
-}
+
+
 .header.dark .logo-font,
 .header.dark .prof-title,
 .header.dark .site-slogan {
