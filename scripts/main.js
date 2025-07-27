@@ -914,7 +914,7 @@
                                       })),
                             (t = void 0 !== window.devicePixelRatio ? window.devicePixelRatio : 1);
                         var o = s(window).width() * t,
-                            r = "./images/bg/bg-" + (o < 1200 ? "1200" : o < 1400 ? "1400" : o < 1920 ? "1920" : o < 2200 ? "2200" : o < 2500 ? "2500" : o < 3e3 ? "3000" : o < 3500 ? "3500" : "4000") + ".jpg";
+                            r = "./images/bg2/bg-" + (o < 1200 ? "1200" : o < 1400 ? "1400" : o < 1920 ? "1920" : o < 2200 ? "2200" : o < 2500 ? "2500" : o < 3e3 ? "3000" : o < 3500 ? "3500" : "4000") + ".jpg";
                         s.backstretch(r, { fade: 300 }),
                             s(window).on("backstretch.after", function (t, e, n) {
                                 s("body > img:not([alt])").attr("alt", "");
