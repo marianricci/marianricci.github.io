@@ -1,2 +1,11 @@
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/style.css
+  Cache-Control: public, max-age=0, must-revalidate
+
+/scripts/main.js
+  Cache-Control: public, max-age=0, must-revalidate
