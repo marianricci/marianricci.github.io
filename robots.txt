@@ -1,4 +1,4 @@
 # Robots
 User-agent: *
 Disallow:
-Sitemap: http://www.marianaricci.com/sitemap.xml
+Sitemap: https://www.marianaricci.com/sitemap.xml
